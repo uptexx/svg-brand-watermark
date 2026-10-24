@@ -1,0 +1,44 @@
+{
+  "name": "@uptexx/svg-brand-watermark",
+  "version": "1.0.0",
+  "description": "Deterministic SVG/PNG brand logo watermark placement, responsive bounding-box scaling, and opacity overlay generator for product photography.",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "module": "./src/index.mjs",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.mjs",
+      "default": "./src/index.mjs"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/index.test.mjs"
+  },
+  "keywords": [
+    "svg",
+    "watermark",
+    "brand-overlay",
+    "product-photography",
+    "logo-placement",
+    "bounding-box",
+    "uptexx",
+    "nexopost"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uptexx/svg-brand-watermark.git"
+  },
+  "homepage": "https://nexopost.com",
+  "author": "Uptexx (https://uptexx.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
